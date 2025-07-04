@@ -1,0 +1,7 @@
+.underline:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 2px;
+    transition: 0.1s;
+    text-decoration-color: lightcoral;
+}

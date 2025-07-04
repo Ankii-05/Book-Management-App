@@ -1,0 +1,89 @@
+
+        button{
+            margin: 10px;
+            border: none;
+            background: lightblue;
+            border-radius: 5px;
+            font-family: serif;
+            color: black;
+            letter-spacing: 1px;
+            margin-left: 10px;
+            width: 100px;
+        }
+
+        .btn-container{
+            display: flex;
+            justify-content: center;
+            margin: 0 10px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .like{
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            border: 1px solid lightblue;
+            background: white;
+            position: relative;
+            top: 1px;
+        }
+        .icon{
+            color: lightblue;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top:2px;
+        }
+
+        .icon:active{
+            color: lightcoral;
+            transform: scale(1.08);
+            transition: all infinity ease-in-out; 
+        }
+        .desc{
+            font-family: cursive;
+            color: gray;
+            font-size: 12px;
+        }
+
+        .author{
+            margin: 0;
+            font-family: cursive;
+            font-size: 15px;
+            font-weight: 100;
+            color: #585858;
+        }
+        .title{
+            font-family: sens-serif;
+            font-size: 24px;
+            margin: 0;
+        }
+        img{
+            width: 120px;
+            border: none;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .card-container{
+            border: 1px solid lightblue;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 15px;
+        }
+        .container-card{
+            display: flex;
+            flex-wrap: wrap
+        }
+
+        h3{
+            text-align: center;
+            margin: 10px;
+            font-family: serif;
+        }
